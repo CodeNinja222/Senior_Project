@@ -1,0 +1,78 @@
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(90deg, #297dc1  30%, #2196F3 70%);
+    position: relative;
+    overflow: hidden;
+   
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    height: 60%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 1%;
+    right: 40%;
+}
+.companyForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.MangerForm{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    gap:15px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.MangerForm_title{
+    font-family: 'Times New Roman', Times, serif !important; 
+    font-weight: 200;
+    color: #1ED760;
+    
+}
+
+.inputs .MuiInputBase-input{
+    
+    font-size: 17px !important;
+   color: black !important;
+    
+}
+.title{
+    
+    font-family:"monospace";
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+     
+    transform: scale(1.7);
+  background: linear-gradient(90deg, #297dc1  30%, #2196F3 70%);
+  background-clip: text;
+  color: transparent;
+   text-align: center;
+   
+}
+.passwordShowIcon{
+    cursor: pointer;
+
+}
+.passwordShowIcon:hover{
+    opacity: 0.6;
+}
